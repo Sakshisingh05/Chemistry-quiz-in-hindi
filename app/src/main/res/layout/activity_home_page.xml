@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFC107"
+    android:orientation="vertical"
+    tools:context=".HomePage">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="294dp"
+        android:layout_height="76dp"
+        android:layout_marginStart="60dp"
+        android:layout_marginLeft="60dp"
+        android:layout_marginEnd="57dp"
+        android:layout_marginRight="57dp"
+        android:gravity="center_horizontal"
+        android:text="होम पेज"
+        android:textAlignment="center"
+        android:textColor="#024377"
+        android:textSize="50sp"
+        android:textStyle="italic"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/quiz1"
+        android:layout_width="169dp"
+        android:layout_height="78dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="47dp"
+        android:layout_marginEnd="226dp"
+        android:layout_marginRight="226dp"
+        android:background="@color/colorPrimary"
+        android:gravity="center_horizontal"
+        android:text="प्रश्नोत्तरी १"
+        android:textAlignment="center"
+        android:textColor="#fff"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        />
+
+    <Button
+        android:id="@+id/quiz2"
+        android:layout_width="169dp"
+        android:layout_height="78dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="47dp"
+        android:layout_marginEnd="226dp"
+        android:layout_marginRight="226dp"
+        android:background="@color/colorPrimary"
+        android:gravity="center_horizontal"
+        android:text="प्रश्नोत्तरी २"
+        android:textAlignment="center"
+        android:textColor="#fff"
+        android:textSize="30dp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/quiz3"
+        android:layout_width="169dp"
+        android:layout_height="78dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="47dp"
+        android:layout_marginEnd="226dp"
+        android:layout_marginRight="226dp"
+        android:background="@color/colorPrimary"
+        android:gravity="center_horizontal"
+        android:text="प्रश्नोत्तरी ३"
+        android:textAlignment="center"
+        android:textColor="#fff"
+        android:textSize="30dp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_marginStart="16dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        app:srcCompat="@drawable/s1"
+        android:layout_marginLeft="16dp" />
+
+</LinearLayout>

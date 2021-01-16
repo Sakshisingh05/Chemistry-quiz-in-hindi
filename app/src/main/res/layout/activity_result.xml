@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFC107"
+    tools:context=".Result"
+    android:orientation="vertical">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="30sp"
+            android:textAlignment="center"
+            android:paddingTop="100dp"
+            android:textStyle="bold"
+            android:padding="90dp"
+            android:textColor="#024377"
+            android:text="यह प्रश्नोत्तरी रसायन विज्ञान के बारे में आपके ज्ञान का परीक्षण करने के लिए थी"
+            android:gravity="center_horizontal" />
+
+
+    </LinearLayout>
+    <Button
+        android:id="@+id/homepage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="30dp"
+        android:padding="20dp"
+        android:textStyle="bold"
+        android:textAlignment="center"
+        android:gravity="center_horizontal"
+        android:text="होम पेज"
+        android:background="@color/colorPrimary"
+        android:textColor="#fff"/>
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/t" />
+
+</LinearLayout>
